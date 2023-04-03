@@ -51,6 +51,10 @@ class HomeScreen extends StatelessWidget {
             ),
             TextButton(
               onPressed: () {},
+              style: TextButton.styleFrom(
+                foregroundColor: Colors.brown,
+                backgroundColor: Colors.blue,
+              ),
               child: Text('TextButton'),
             ),
           ],
