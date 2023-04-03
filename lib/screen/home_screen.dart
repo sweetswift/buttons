@@ -19,6 +19,10 @@ class HomeScreen extends StatelessWidget {
               onPressed: () {},
               child: Text('ElevatedButton'),
             ),
+            OutlinedButton(
+              onPressed: () {},
+              child: Text('OutlinedButton'),
+            ),
           ],
         ),
       ),
