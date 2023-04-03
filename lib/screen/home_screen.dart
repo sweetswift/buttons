@@ -41,6 +41,12 @@ class HomeScreen extends StatelessWidget {
             ),
             OutlinedButton(
               onPressed: () {},
+              style: OutlinedButton.styleFrom(
+                //메인 컬러
+                //backgroundColor: Colors.red,
+                // 글자 및 애니메이션 컬러
+                foregroundColor: Colors.black,
+              ),
               child: Text('OutlinedButton'),
             ),
             TextButton(
