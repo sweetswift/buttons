@@ -23,6 +23,10 @@ class HomeScreen extends StatelessWidget {
               onPressed: () {},
               child: Text('OutlinedButton'),
             ),
+            TextButton(
+              onPressed: () {},
+              child: Text('TextButton'),
+            ),
           ],
         ),
       ),
